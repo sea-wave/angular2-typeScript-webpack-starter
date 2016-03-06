@@ -1,6 +1,6 @@
 # Angular2 + TypeScript + Webpack Minimal Development Environment
-# Forked from Nir Kaufman Github project under:
-# https://github.com/nirkaufman/angular2-typeScript-webpack-starter
+### Forked from Nir Kaufman Github project under:
+https://github.com/nirkaufman/angular2-typeScript-webpack-starter
 
 ### How to run:
 1. clone the project
