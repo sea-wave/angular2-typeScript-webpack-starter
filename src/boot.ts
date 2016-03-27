@@ -1,5 +1,6 @@
 /// <reference path="../node_modules/angular2/typings/browser.d.ts" />
 
+import 'zone.js/dist/zone';
 //import 'expose?Zone!zone.js';
 import 'reflect-metadata';
 import 'rxjs/Rx';
