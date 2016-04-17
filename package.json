@@ -4,11 +4,11 @@
   "description": "Minimal Angular2 development environment which use typeScript.",
   "main": "webpack.config.js",
   "dependencies": {
-    "angular2": "2.0.0-beta.14",
+    "angular2": "2.0.0-beta.15",
     "es6-shim": "0.35.0",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
-    "zone.js": "0.6.6"
+    "zone.js": "0.6.10"
   },
   "devDependencies": {
     "expose-loader": "0.7.1",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "prestart": "npm install",
-	"bundle": "mkdir ./dist 2> /dev/null && cp src/index.html ./dist/ & webpack -p --devtool sourcemap ./dist/bundle.js",
+	"bundle": "mkdir ./dist 2> /dev/null & cp src/index.html ./dist/ & webpack -p --devtool sourcemap ./dist/bundle.js",
     "start": "webpack-dev-server --hot"
   },
   "repository": {
