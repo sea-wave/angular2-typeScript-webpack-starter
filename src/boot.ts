@@ -1,10 +1,13 @@
-/// <reference path="../node_modules/angular2/typings/browser.d.ts" />
+///<reference path="./../typings/browser/ambient/es6-shim/index.d.ts"/>
 
 import 'zone.js/dist/zone';
-//import 'expose?Zone!zone.js';
 import 'reflect-metadata';
-import 'rxjs/Rx';
+//import 'rxjs/Rx';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/toPromise';
+import {Component, OnInit} from '@angular/core';
+import {bootstrap} from "@angular/platform-browser-dynamic";
 import {App}         from 'components/app'
-import { bootstrap } from 'angular2/platform/browser';
+
 
 bootstrap(App);
